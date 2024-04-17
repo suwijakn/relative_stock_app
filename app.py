@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 from helpers import *
 
 
-exchange = ccxt.okex()
+exchange = ccxt.binanceus()
 
 ohlc = ['Open','High','Low','Close']
 _o,_h,_l,_c = [ohlc[h] for h in range(len(ohlc))]
