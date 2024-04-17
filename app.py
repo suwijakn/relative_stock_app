@@ -6,10 +6,6 @@ import plotly.express as px
 import plotly.graph_objects as go
 from helpers import *
 
-st.set_page_config(
-    theme="dark"
-)
-
 exchange = ccxt.binanceus()
 
 ohlc = ['Open','High','Low','Close']
